@@ -105,7 +105,7 @@
         				<th align="center"><spring:message code="title.sample.id" /></th>
         				<th align="center"><spring:message code="title.sample.name" /></th>
         				<th align="center"><spring:message code="title.sample.useYn" /></th>
-        				<th align="center"><spring:message code="title.sample.description" /></th>
+        				<!--  <th align="center"><spring:message code="title.sample.description" /></th> -->
         				<th align="center"><spring:message code="title.sample.regUser" /></th>
         			</tr>
         			<c:forEach var="result" items="${resultList}" varStatus="status">
