@@ -114,7 +114,7 @@
             				<td align="center" class="listtd"><a href="javascript:fn_egov_select('<c:out value="${result.id}"/>')"><c:out value="${result.id}"/></a></td>
             				<td align="left" class="listtd"><c:out value="${result.name}"/>&nbsp;</td>
             				<td align="center" class="listtd"><c:out value="${result.useYn}"/>&nbsp;</td>
-            				<td align="center" class="listtd"><c:out value="${result.description}"/>&nbsp;</td>
+            				<!-- <td align="center" class="listtd"><c:out value="${result.description}"/>&nbsp;</td> -->
             				<td align="center" class="listtd"><c:out value="${result.regUser}"/>&nbsp;</td>
             			</tr>
         			</c:forEach>
